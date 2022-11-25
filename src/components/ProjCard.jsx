@@ -29,12 +29,12 @@ function ProjCard() {
             <h5>Enlaces</h5>
             <p>
               <a href={project.gitlink} target="_blank">
-                <img src="/src/icons/icons8-github-96.png" alt="logo-redes" className="logo-redes"/>
+                <img src="../src/icons/icons8-github-96.png" alt="logo-redes" className="logo-redes"/>
               </a>
             </p>
             <p>
               <a href={project.weblink} target="_blank">
-                <img src="/src/icons/icons8-dominio-100.png" alt="logo-redes" className="logo-redes"/>
+                <img src="../src/icons/icons8-dominio-100.png" alt="logo-redes" className="logo-redes"/>
               </a>
             </p>
           </div>
