@@ -8,7 +8,7 @@ function PortPresentation() {
   });
 
   if (counter == 10) {
-    window.scroll(0, 852);
+    window.scroll(0, 845);
     setCounter(0);
   }
 
