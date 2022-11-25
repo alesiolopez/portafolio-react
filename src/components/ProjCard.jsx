@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { projects as data } from "../data/projects";
+import LogoGithub from "../src/icons/icons8-github-96.png";
 
 function ProjCard() {
   const [projects, setProjects] = useState([]);
@@ -10,9 +11,8 @@ function ProjCard() {
 
   return (
     <>
-      
       <div className="projects-container">
-      <h1>PROYECTOS</h1>
+        <h1>PROYECTOS</h1>
         {projects.map((project) => (
           <div key={project.id} className="project-style">
             <img
@@ -29,12 +29,16 @@ function ProjCard() {
             <h5>Enlaces</h5>
             <p>
               <a href={project.gitlink} target="_blank">
-                <img src="../src/icons/icons8-github-96.png" alt="logo-redes" className="logo-redes"/>
+                <img src={LogoGithub} alt="logo-redes" className="logo-redes" />
               </a>
             </p>
             <p>
               <a href={project.weblink} target="_blank">
-                <img src="../src/icons/icons8-dominio-100.png" alt="logo-redes" className="logo-redes"/>
+                <img
+                  src="../src/icons/icons8-dominio-100.png"
+                  alt="logo-redes"
+                  className="logo-redes"
+                />
               </a>
             </p>
           </div>
