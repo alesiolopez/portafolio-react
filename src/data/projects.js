@@ -23,7 +23,7 @@ export const projects = [
     description: "Proyecto de cración de tareas realizando en React Js. Una pequeña aplicación web donde podes crear tareas con un breve título y descripción. Pruébenlo que puede resultar útil! =D",
     gitlink: "https://github.com/alesiolopez/react-tasks",
     weblink: "https://tasks-react-alesiolopez.netlify.app/",
-    image: "../src/img/tareas_captura.png",
+    image: "/src/img/tareas_captura.png",
   },
   {
     id: "3",
@@ -32,6 +32,6 @@ export const projects = [
       "Acá realizo la primer versión de mi página personal, con mucho esfuerzo y entusiasmo aplicando lo que he aprendido de HTML5 y CSS3. Los invito a visualizar el repositorio en GitHub y el sitio web subido a Netlify.",
     gitlink: "https://github.com/alesiolopez/portfolio",
     weblink: "https://alesiolopez.netlify.app/",
-    image: "../src/img/portfolio_captura.png",
+    image: "./src/img/portfolio_captura.png",
   },
 ];
