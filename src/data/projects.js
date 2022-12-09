@@ -29,7 +29,7 @@ export const projects = [
     id: "3",
     title: "Mi Portfolio",
     description:
-      "Acá realizo mi página personal con mucho esfuerzo y entusiasmo aplicando lo que he aprendido hasta hoy. Es la página actual donde están parados pero los invito a visualizar el repositorio en GitHub.",
+      "Acá realizo la primer versión de mi página personal, con mucho esfuerzo y entusiasmo aplicando lo que he aprendido de HTML5 y CSS3. Los invito a visualizar el repositorio en GitHub y el sitio web subido a Netlify.",
     gitlink: "https://github.com/alesiolopez/portfolio",
     weblink: "https://alesiolopez.netlify.app/",
     image: "../src/img/portfolio_captura.png",
