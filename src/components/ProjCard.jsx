@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react";
 import { projects as data } from "../data/projects";
+import { images, iconos } from "../data/images"
+
+const icono_dominio = iconos[0].url;
+
+console.log(icono_dominio)
 
 function ProjCard() {
   const [projects, setProjects] = useState([]);
@@ -28,13 +33,17 @@ function ProjCard() {
             <h5>Enlaces</h5>
             <p>
               <a href={project.gitlink} target="_blank">
-                <img src="../src/icons/icons8-github-96.png" alt="logo-redes" className="logo-redes" />
+                <img
+                  src="../src/icons/icons8-github-96.png"
+                  alt="logo-redes"
+                  className="logo-redes"
+                />
               </a>
             </p>
             <p>
               <a href={project.weblink} target="_blank">
                 <img
-                  src="../src/icons/icons8-dominio-100.png"
+                  src={icono_dominio}
                   alt="logo-redes"
                   className="logo-redes"
                 />

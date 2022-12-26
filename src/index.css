@@ -58,7 +58,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  transition: 0.2s;
+  transition: 0.1s;
   background: transparent;
 }
 
@@ -266,29 +266,33 @@ p {
   color: darkslategray;
   text-align: justify;
   padding: 0px 10px;
+  opacity: 10%;
 }
 .project-style a {
   font-size: 24px;
   color: darkslategray;
+  opacity: 10%;
 }
 
 .project-style:hover {
   transform: scale(1);
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
   animation: none;
-  background: rgb(32, 53, 53);
+  background: transparent;
 }
 
 .project-style:hover a {
   color: lightblue;
+  opacity: 100%;
 }
 
 .project-style:hover p {
   color: white;
+  opacity: 100%;
 }
 
 .project-style a:hover {
-  color: rgb(25, 25, 25);
+  opacity: 100%;
 }
 
 .logo-redes {
@@ -305,10 +309,12 @@ p {
   color: darkslategrey;
   font-size: 21px;
   background: transparent;
+  opacity: 10%;
 }
 
 .project-style:hover h5 {
   color: lightblue;
+  opacity: 100%;
 }
 
 /* ------------CONTACT-------------- */
